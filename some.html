@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://www.redux.org.cn/docs/introduction/Examples.html -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        
+        <title>示例 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="./示例 · GitBook_files/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="./示例 · GitBook_files/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="./示例 · GitBook_files/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="./示例 · GitBook_files/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="./示例 · GitBook_files/website(1).css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://www.redux.org.cn/gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="http://www.redux.org.cn/gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="http://www.redux.org.cn/docs/basics/">
+    
+    
+    <link rel="prev" href="http://www.redux.org.cn/docs/introduction/Ecosystem.html">
+    
+
+    </head>
+    <body>
+        
+<div class="book without-animation with-summary font-size-2 font-family-1">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋">
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">目录</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="http://www.redux.org.cn/">
+            
+                    
+                    自述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="./">
+            
+                <a href="http://www.redux.org.cn/docs/introduction/">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="Motivation.html">
+            
+                <a href="http://www.redux.org.cn/docs/introduction/Motivation.html">
+            
+                    
+                    动机
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="CoreConcepts.html">
+            
+                <a href="http://www.redux.org.cn/docs/introduction/CoreConcepts.html">
+            
+                    
+                    核心概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="ThreePrinciples.html">
+            
+                <a href="http://www.redux.org.cn/docs/introduction/ThreePrinciples.html">
+            
+                    
+                    三大原则
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="PriorArt.html">
+            
+                <a href="http://www.redux.org.cn/docs/introduction/PriorArt.html">
+            
+                    
+                    先前技术
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="Ecosystem.html">
+            
+                <a href="http://www.redux.org.cn/docs/introduction/Ecosystem.html">
+            
+                    
+                    生态系统
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.6" data-path="Examples.html">
+            
+                <a href="http://www.redux.org.cn/docs/introduction/Examples.html">
+            
+                    
+                    示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../basics/">
+            
+                <a href="http://www.redux.org.cn/docs/basics/">
+            
+                    
+                    基础
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../basics/Actions.html">
+            
+                <a href="http://www.redux.org.cn/docs/basics/Actions.html">
+            
+                    
+                    Action
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../basics/Reducers.html">
+            
+                <a href="http://www.redux.org.cn/docs/basics/Reducers.html">
+            
+                    
+                    Reducer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../basics/Store.html">
+            
+                <a href="http://www.redux.org.cn/docs/basics/Store.html">
+            
+                    
+                    Store
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../basics/DataFlow.html">
+            
+                <a href="http://www.redux.org.cn/docs/basics/DataFlow.html">
+            
+                    
+                    数据流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../basics/UsageWithReact.html">
+            
+                <a href="http://www.redux.org.cn/docs/basics/UsageWithReact.html">
+            
+                    
+                    搭配 React
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../basics/ExampleTodoList.html">
+            
+                <a href="http://www.redux.org.cn/docs/basics/ExampleTodoList.html">
+            
+                    
+                    示例：Todo List
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../advanced/">
+            
+                <a href="http://www.redux.org.cn/docs/advanced/">
+            
+                    
+                    高级
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../advanced/AsyncActions.html">
+            
+                <a href="http://www.redux.org.cn/docs/advanced/AsyncActions.html">
+            
+                    
+                    异步 Action
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="../advanced/AsyncFlow.html">
+            
+                <a href="http://www.redux.org.cn/docs/advanced/AsyncFlow.html">
+            
+                    
+                    异步数据流
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="../advanced/Middleware.html">
+            
+                <a href="http://www.redux.org.cn/docs/advanced/Middleware.html">
+            
+                    
+                    Middleware
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="../advanced/UsageWithReactRouter.html">
+            
+                <a href="http://www.redux.org.cn/docs/advanced/UsageWithReactRouter.html">
+            
+                    
+                    搭配 React Router
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="../advanced/ExampleRedditAPI.html">
+            
+                <a href="http://www.redux.org.cn/docs/advanced/ExampleRedditAPI.html">
+            
+                    
+                    示例：Reddit API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="../advanced/NextSteps.html">
+            
+                <a href="http://www.redux.org.cn/docs/advanced/NextSteps.html">
+            
+                    
+                    下一步
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../recipes/">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/">
+            
+                    
+                    技巧
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../recipes/MigratingToRedux.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/MigratingToRedux.html">
+            
+                    
+                    迁移到 Redux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="../recipes/UsingObjectSpreadOperator.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/UsingObjectSpreadOperator.html">
+            
+                    
+                    使用对象展开运算符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="../recipes/ReducingBoilerplate.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/ReducingBoilerplate.html">
+            
+                    
+                    减少样板代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="../recipes/ServerRendering.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/ServerRendering.html">
+            
+                    
+                    服务端渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="../recipes/WritingTests.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/WritingTests.html">
+            
+                    
+                    编写测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.6" data-path="../recipes/ComputingDerivedData.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/ComputingDerivedData.html">
+            
+                    
+                    计算衍生数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.7" data-path="../recipes/ImplementingUndoHistory.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/ImplementingUndoHistory.html">
+            
+                    
+                    实现撤销重做
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.8" data-path="../recipes/IsolatingSubapps.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/IsolatingSubapps.html">
+            
+                    
+                    子应用隔离
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9" data-path="../recipes/StructuringReducers.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/StructuringReducers.html">
+            
+                    
+                    组织 Reducer
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.9.1" data-path="../recipes/reducers/PrerequisiteConcepts.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/reducers/PrerequisiteConcepts.html">
+            
+                    
+                    Reducer 基础概念
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.2" data-path="../recipes/reducers/BasicReducerStructure.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/reducers/BasicReducerStructure.html">
+            
+                    
+                    Reducer 基础结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.3" data-path="../recipes/reducers/SplittingReducerLogic.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/reducers/SplittingReducerLogic.html">
+            
+                    
+                    Reducer 逻辑拆分
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.4" data-path="../recipes/reducers/RefactoringReducersExample.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/reducers/RefactoringReducersExample.html">
+            
+                    
+                    Reducer 重构示例
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.5" data-path="../recipes/reducers/UsingCombineReducers.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/reducers/UsingCombineReducers.html">
+            
+                    
+                    combineReducers 用法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.6" data-path="../recipes/reducers/BeyondCombineReducers.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/reducers/BeyondCombineReducers.html">
+            
+                    
+                    combineReducers 进阶
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.7" data-path="../recipes/reducers/NormalizingStateShape.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/reducers/NormalizingStateShape.html">
+            
+                    
+                    State 范式化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.8" data-path="../recipes/reducers/UpdatingNormalizedData.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/reducers/UpdatingNormalizedData.html">
+            
+                    
+                    管理范式化数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.9" data-path="../recipes/reducers/ReusingReducerLogic.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/reducers/ReusingReducerLogic.html">
+            
+                    
+                    Reducer 逻辑复用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.10" data-path="../recipes/reducers/ImmutableUpdatePatterns.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/reducers/ImmutableUpdatePatterns.html">
+            
+                    
+                    不可变更新模式
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.9.11" data-path="../recipes/reducers/InitializingState.html">
+            
+                <a href="http://www.redux.org.cn/docs/recipes/reducers/InitializingState.html">
+            
+                    
+                    初始化 State
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../FAQ.html">
+            
+                <a href="http://www.redux.org.cn/docs/FAQ.html">
+            
+                    
+                    常见问题
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../faq/General.html">
+            
+                <a href="http://www.redux.org.cn/docs/faq/General.html">
+            
+                    
+                    综合
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../faq/Reducers.html">
+            
+                <a href="http://www.redux.org.cn/docs/faq/Reducers.html">
+            
+                    
+                    Reducer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.3" data-path="../faq/OrganizingState.html">
+            
+                <a href="http://www.redux.org.cn/docs/faq/OrganizingState.html">
+            
+                    
+                    组织 State
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.4" data-path="../faq/StoreSetup.html">
+            
+                <a href="http://www.redux.org.cn/docs/faq/StoreSetup.html">
+            
+                    
+                    创建 Store
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.5" data-path="../faq/Actions.html">
+            
+                <a href="http://www.redux.org.cn/docs/faq/Actions.html">
+            
+                    
+                    Action
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.6" data-path="../faq/CodeStructure.html">
+            
+                <a href="http://www.redux.org.cn/docs/faq/CodeStructure.html">
+            
+                    
+                    代码结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.7" data-path="../faq/Performance.html">
+            
+                <a href="http://www.redux.org.cn/docs/faq/Performance.html">
+            
+                    
+                    性能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.8" data-path="../faq/ReactRedux.html">
+            
+                <a href="http://www.redux.org.cn/docs/faq/ReactRedux.html">
+            
+                    
+                    React Redux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.9" data-path="../faq/Miscellaneous.html">
+            
+                <a href="http://www.redux.org.cn/docs/faq/Miscellaneous.html">
+            
+                    
+                    其它
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../Troubleshooting.html">
+            
+                <a href="http://www.redux.org.cn/docs/Troubleshooting.html">
+            
+                    
+                    排错
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../Glossary.html">
+            
+                <a href="http://www.redux.org.cn/docs/Glossary.html">
+            
+                    
+                    词汇表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../api/">
+            
+                <a href="http://www.redux.org.cn/docs/api/">
+            
+                    
+                    API 文档
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../api/createStore.html">
+            
+                <a href="http://www.redux.org.cn/docs/api/createStore.html">
+            
+                    
+                    createStore
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="../api/Store.html">
+            
+                <a href="http://www.redux.org.cn/docs/api/Store.html">
+            
+                    
+                    Store
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="../api/combineReducers.html">
+            
+                <a href="http://www.redux.org.cn/docs/api/combineReducers.html">
+            
+                    
+                    combineReducers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="../api/applyMiddleware.html">
+            
+                <a href="http://www.redux.org.cn/docs/api/applyMiddleware.html">
+            
+                    
+                    applyMiddleware
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="../api/bindActionCreators.html">
+            
+                <a href="http://www.redux.org.cn/docs/api/bindActionCreators.html">
+            
+                    
+                    bindActionCreators
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="../api/compose.html">
+            
+                <a href="http://www.redux.org.cn/docs/api/compose.html">
+            
+                    
+                    compose
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../react-redux/">
+            
+                <a href="http://www.redux.org.cn/docs/react-redux/">
+            
+                    
+                    react-redux 文档
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../react-redux/api.html">
+            
+                <a href="http://www.redux.org.cn/docs/react-redux/api.html">
+            
+                    
+                    API
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="../react-redux/troubleshooting.html">
+            
+                <a href="http://www.redux.org.cn/docs/react-redux/troubleshooting.html">
+            
+                    
+                    排错
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11">
+            
+                <a target="_blank" href="https://www.qque.com/">
+            
+                    
+                    微信小程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com/" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <a class="btn pull-left js-toolbar-action" aria-label="" href="http://www.redux.org.cn/docs/introduction/Examples.html#"><i class="fa fa-align-justify"></i></a><div class="dropdown pull-right js-toolbar-action"><a class="btn toggle-dropdown" aria-label="Share" href="http://www.redux.org.cn/docs/introduction/Examples.html#"><i class="fa fa-share-alt"></i></a><div class="dropdown-menu dropdown-left"><div class="dropdown-caret"><span class="caret-outer"></span><span class="caret-inner"></span></div><div class="buttons"><button class="button size-5 ">Facebook</button><button class="button size-5 ">Google+</button><button class="button size-5 ">Twitter</button><button class="button size-5 ">Weibo</button><button class="button size-5 ">Instapaper</button></div></div></div><a class="btn pull-right js-toolbar-action" aria-label="" href="http://www.redux.org.cn/docs/introduction/Examples.html#"><i class="fa fa-facebook"></i></a><a class="btn pull-right js-toolbar-action" aria-label="" href="http://www.redux.org.cn/docs/introduction/Examples.html#"><i class="fa fa-twitter"></i></a><div class="dropdown pull-left font-settings js-toolbar-action"><a class="btn toggle-dropdown" aria-label="Font Settings" href="http://www.redux.org.cn/docs/introduction/Examples.html#"><i class="fa fa-font"></i></a><div class="dropdown-menu dropdown-right"><div class="dropdown-caret"><span class="caret-outer"></span><span class="caret-inner"></span></div><div class="buttons"><button class="button size-2 font-reduce">A</button><button class="button size-2 font-enlarge">A</button></div><div class="buttons"><button class="button size-2 ">Serif</button><button class="button size-2 ">Sans</button></div><div class="buttons"><button class="button size-3 ">White</button><button class="button size-3 ">Sepia</button><button class="button size-3 ">Night</button></div></div></div><h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="http://www.redux.org.cn/">示例</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="示例">示例</h1>
+<p>Redux <a href="https://github.com/reactjs/redux/tree/master/examples" target="_blank">源码</a> 中同时包含了一些示例。</p>
+<h2 id="原生版-counter">原生版 Counter</h2>
+<p>运行 <a href="https://github.com/reactjs/redux/tree/master/examples/counter-vanilla" target="_blank">Counter Vanilla</a> 示例:</p>
+<pre class="language-"><code>git clone https://github.com/reactjs/redux.git
+
+cd redux/examples/counter-vanilla
+open index.html
+</code></pre><p>该示例不需搭建系统或视图框架，展示了基于 ES5 的原生 Redux API。</p>
+<h2 id="counter">Counter</h2>
+<p>运行 <a href="https://github.com/reactjs/redux/tree/master/examples/counter" target="_blank">Counter</a> 示例：</p>
+<pre class="language-"><code>git clone https://github.com/reactjs/redux.git
+
+cd redux/examples/counter
+npm install
+npm start
+
+open http://localhost:3000/
+</code></pre><p>Redux 结合 React 使用的最基本示例。出于简化，当 store 发生变化，React 组件会手动重新渲染。在实际的项目中，可以使用 React 和 Redux 已绑定、且更高效的 <a href="https://github.com/reactjs/react-redux" target="_blank">React Redux</a>。</p>
+<p>该示例包含测试代码。</p>
+<h2 id="todos">Todos</h2>
+<p>运行 <a href="https://github.com/reactjs/redux/tree/master/examples/todos" target="_blank">Todos</a> 示例：</p>
+<pre class="language-"><code>git clone https://github.com/reactjs/redux.git
+
+cd redux/examples/todos
+npm install
+npm start
+
+open http://localhost:3000/
+</code></pre><p>深入理解在 Redux 中 state 的更新与组件是如何共同运作的例子。展示了 reducer 如何委派 action 给其它 reducer，也展示了如何使用 <a href="https://github.com/reactjs/react-redux" target="_blank">React Redux</a> 从展示组件中生成容器组件。</p>
+<p>该示例包含测试代码。</p>
+<h2 id="支持撤销的-todos">支持撤销的 Todos</h2>
+<p>运行 <a href="https://github.com/reactjs/redux/tree/master/examples/todos-with-undo" target="_blank">Todos-with-undo</a> 示例:</p>
+<pre class="language-"><code>git clone https://github.com/reactjs/redux.git
+
+cd redux/examples/todos-with-undo
+npm install
+npm start
+
+open http://localhost:3000/
+</code></pre><p>前一个示例的衍生。基本相同但额外展示了如何使用 <a href="https://github.com/omnidan/redux-undo" target="_blank">Redux Undo</a> 打包 reducer，仅增加几行代码实现撤销/重做功能。</p>
+<h2 id="todomvc">TodoMVC</h2>
+<p>运行 <a href="https://github.com/reactjs/redux/tree/master/examples/todomvc" target="_blank">TodoMVC</a> 示例:</p>
+<pre class="language-"><code>git clone https://github.com/reactjs/redux.git
+
+cd redux/examples/todomvc
+npm install
+npm start
+
+open http://localhost:3000/
+</code></pre><p>经典的 <a href="http://todomvc.com/" target="_blank">TodoMVC</a> 示例。与 Todos 示例的目的相同，为了两者间比较罗列在此。</p>
+<p>该示例包含测试代码。</p>
+<h2 id="购物车">购物车</h2>
+<p>运行 <a href="https://github.com/reactjs/redux/tree/master/examples/shopping-cart" target="_blank">Shopping Cart</a> 示例：</p>
+<pre class="language-"><code>git clone https://github.com/reactjs/redux.git
+
+cd redux/examples/shopping-cart
+npm install
+npm start
+
+open http://localhost:3000/
+</code></pre><p>该示例展示了随着应用升级变得愈发重要的常用的 Redux 模式。尤其展示了，如何使用 ID 来标准化存储数据实体，如何在不同层级将多个 reducer 组合使用，如何利用 reducer 定义选择器以封装 state 的相关内容。该示例也展示了使用 <a href="https://github.com/fcomb/redux-logger" target="_blank">Redux Logger</a> 生成日志，以及使用 <a href="https://github.com/gaearon/redux-thunk" target="_blank">Redux Thunk</a> 中间件进行 action 的条件性分发。</p>
+<h2 id="树状视图">树状视图</h2>
+<p>运行 <a href="https://github.com/reactjs/redux/tree/master/examples/tree-view" target="_blank">Tree View</a> 示例:</p>
+<pre class="language-"><code>git clone https://github.com/reactjs/redux.git
+
+cd redux/examples/tree-view
+npm install
+npm start
+
+open http://localhost:3000/
+</code></pre><p>该示例展示了深层嵌套树状视图的渲染，以及为了方便 reducer 更新，state 的标准化写法。优良的渲染表现，来自于容器组件细粒度的、仅针对需要渲染的 tree node 的绑定。</p>
+<p>该示例包含测试代码。</p>
+<h2 id="异步">异步</h2>
+<p>运行 <a href="https://github.com/reactjs/redux/tree/master/examples/async" target="_blank">Async</a> 示例：</p>
+<pre class="language-"><code>git clone https://github.com/reactjs/redux.git
+
+cd redux/examples/async
+npm install
+npm start
+
+open http://localhost:3000/
+</code></pre><p>该示例包含了：从异步 API 的读取操作、基于用户的输入来获取数据、显示正在加载的提示、缓存响应、以及使缓存过期失效。使用 <a href="https://github.com/gaearon/redux-thunk" target="_blank">Redux Thunk</a> 中间件来封装异步带来的附带作用。</p>
+<h2 id="同构">同构</h2>
+<p>运行 <a href="https://github.com/reactjs/redux/tree/master/examples/universal" target="_blank">Universal</a> 示例:</p>
+<pre class="language-"><code>git clone https://github.com/reactjs/redux.git
+
+cd redux/examples/universal
+npm install
+npm start
+
+open http://localhost:3000/
+</code></pre><p>展示了基于 Redux 和 React 的 <a href="http://www.redux.org.cn/docs/recipes/ServerRendering.html">server rendering</a>。怎样在服务器端准备 store 中的初始 state 并传递到客户端，使客户端中的 store 可以从现有的 state 启动。</p>
+<h2 id="真实场景">真实场景</h2>
+<p>运行 <a href="https://github.com/reactjs/redux/tree/master/examples/real-world" target="_blank">Real World</a> 示例：</p>
+<pre class="language-"><code>git clone https://github.com/reactjs/redux.git
+
+cd redux/examples/real-world
+npm install
+npm start
+
+open http://localhost:3000/
+</code></pre><p>最为高阶的示例。浓缩化的设计。包含了持续性地从标准化缓存中批量获取数据实例，针对 API 调用的自定义中间件的实现，逐步渲染已加载的数据、分页器、缓存响应，展示错误信息，以及路由。同时，包含了 Redux DevTools 的使用。</p>
+<h2 id="更多示例">更多示例</h2>
+<p>前往 <a href="https://github.com/xgrommx/awesome-redux" target="_blank">Awesome Redux</a> 获取更多 Redux 示例。</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class="search-results-count"></span> results matching "<span class="search-query"></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class="search-query"></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="http://www.redux.org.cn/docs/introduction/Ecosystem.html" class="navigation navigation-prev " aria-label="Previous page: 生态系统">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="http://www.redux.org.cn/docs/basics/" class="navigation navigation-next " aria-label="Next page: 基础" style="margin-right: 17px;">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script src="./示例 · GitBook_files/hm.js.下载"></script><script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"示例","level":"1.2.6","depth":2,"next":{"title":"基础","level":"1.3","depth":1,"path":"docs/basics/README.md","ref":"docs/basics/README.md","articles":[{"title":"Action","level":"1.3.1","depth":2,"path":"docs/basics/Actions.md","ref":"docs/basics/Actions.md","articles":[]},{"title":"Reducer","level":"1.3.2","depth":2,"path":"docs/basics/Reducers.md","ref":"docs/basics/Reducers.md","articles":[]},{"title":"Store","level":"1.3.3","depth":2,"path":"docs/basics/Store.md","ref":"docs/basics/Store.md","articles":[]},{"title":"数据流","level":"1.3.4","depth":2,"path":"docs/basics/DataFlow.md","ref":"docs/basics/DataFlow.md","articles":[]},{"title":"搭配 React","level":"1.3.5","depth":2,"path":"docs/basics/UsageWithReact.md","ref":"docs/basics/UsageWithReact.md","articles":[]},{"title":"示例：Todo List","level":"1.3.6","depth":2,"path":"docs/basics/ExampleTodoList.md","ref":"docs/basics/ExampleTodoList.md","articles":[]}]},"previous":{"title":"生态系统","level":"1.2.5","depth":2,"path":"docs/introduction/Ecosystem.md","ref":"docs/introduction/Ecosystem.md","articles":[]},"dir":"ltr"},"config":{"plugins":["prism","baidu_gio"],"root":"./","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"baidu_gio":{"token":"4c5b978fc59fe3cf56a5d84823685c9c"},"prism":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"language":"zh-CN","gitbook":"3.2.3"},"file":{"path":"docs/introduction/Examples.md","mtime":"2018-02-24T14:41:02.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-05-02T23:27:43.563Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="./示例 · GitBook_files/gitbook.js.下载"></script>
+    <script src="./示例 · GitBook_files/theme.js.下载"></script>
+    
+        
+        <script src="./示例 · GitBook_files/plugin.js.下载"></script>
+        
+    
+        
+        <script src="./示例 · GitBook_files/search-engine.js.下载"></script>
+        
+    
+        
+        <script src="./示例 · GitBook_files/search.js.下载"></script>
+        
+    
+        
+        <script src="./示例 · GitBook_files/lunr.min.js.下载"></script>
+        
+    
+        
+        <script src="./示例 · GitBook_files/search-lunr.js.下载"></script>
+        
+    
+        
+        <script src="./示例 · GitBook_files/buttons.js.下载"></script>
+        
+    
+        
+        <script src="./示例 · GitBook_files/fontsettings.js.下载"></script>
+        
+    
+
+    
+
+
+</body></html>
